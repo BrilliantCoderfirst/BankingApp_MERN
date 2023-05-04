@@ -1,0 +1,49 @@
+/* --------------  Banking App (MERN Based Project) ---------------- */
+
+
+1)  Frontend Part :- 
+
+
+ Pages :-  
+    a) Sign Up Page - For sign up
+    b) Log In Page - For log in
+    c) BankerHome Page - This page show all accounts of customer (user).
+    d) BankerCheckHistory - This page show particular transactions of customer.
+    e) CustomerHome - This page show particular customer details.
+    f) TransactionAmount - This page show transactions to another customer.
+    g) TransactionHistory - This page show customer transactions history.
+ Components :- 
+    h) Navbar - This Components show for navbar.
+
+
+
+
+2) Backend Part :- 
+
+    a) Controller (folder) - accountController.js  - All account related function are write in this file.
+                           - userController.js     - All user related function are write in this file.
+
+    b) Model (folder) - AccountModel.js   - Account related Scheme and Model are write in this file.
+                      - UserModel.js      - User related Scheme and model are write in this file.
+
+    c) Routes (folder) - accountRoutes.js  - All account related Routes are write in this file.
+                       - userRoutes.js     - All user related Routes are write in this file.
+
+    d) .env - all secrets links and data are write in this file.
+
+    e) index.js - It is a main file because server started through this file.
+
+
+
+
+
+3) Note :-   
+
+    For FrontEnd :- 
+        a) Firstly Install Node Packages through (npm i).
+
+    For BackEnd :- 
+        a) Firstly attached your mongodb link.
+        b) Write Your JWT_KEY like "dkfj89fu9djf9djf9d"
+             (because both important data are write in the .env file.)
+
